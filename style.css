@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Sixtyfour+Convergence&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-titulo:"Sixtyfour Convergence", sans-serif;
+    --fonte-texto:"PT Sans", sans-serif;
+    --azul-escuro: #05668dff;
+    --azul-céu: #427aa1ff;
+    --gelo: #ebf2faff;
+    --verde-musgo: #679436ff;
+    --verde-lima: #a5be00ff;
+}
