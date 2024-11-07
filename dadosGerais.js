@@ -9,9 +9,18 @@ async function vizualizando(){
     const cursoMaisVotado = cursos[0]
     const quantidadeDeVoto = Object.values(dados) [0]
 
+    let paragrafo = document.createElement('p')
+
+    paragrafo.classList.add('caixa-grafico_texto')
+
+    paragrafo.innerHTML = 'Nesta pesquisa, buscou-se compreender qual o esporte mais praticado pela população brasileira. 0 ${esporteMaisVotado} foi o esporte mais votado entre todos, com um total de ${quantidaDedeVotos} votos, em uma pesquisa que teve um total de um milhão de participantes.'
+
+    let caixa = document.getElementById('caixa-grafico')
+    caixa.appendChild(paragrafo)
+
+
     console.log(cursoMaisVotado)
     console.log(quantidadeDeVoto)
 
 }
- 
 vizualizaInfo()
